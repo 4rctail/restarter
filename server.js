@@ -34,7 +34,7 @@ const HEALTH_URL_1 = process.env.HEALTH_URL_1;  // e.g.: https://bot1.onrender.c
 const HEALTH_URL_2 = process.env.HEALTH_URL_2;  // e.g.: https://bot2.onrender.com/
 
 // Timing
-const FIRST_RETRY_DELAY = 5 * 60 * 1000; // 20 minutes
+const FIRST_RETRY_DELAY = 12 * 60 * 1000; // 12 minutes
 const CHECK_INTERVAL = 5 * 60 * 1000;     // check every 5 minutes
 const STATUS_POLL_INTERVAL_MS = 5000;
 const RESUME_TIMEOUT_MS = 180000;
