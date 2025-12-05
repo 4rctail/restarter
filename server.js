@@ -23,11 +23,11 @@ const PORT = Number(process.env.PORT || 3000);
 const DEBUG = (process.env.DEBUG || "false").toLowerCase() === "true";
 
 // Render Accounts
-const RenderAPI_1 = process.env.RenderAPI_1;
-const RenderAPI_2 = process.env.RenderAPI_2;
+const RenderAPI_1 = process.env.RENDERAPI_1;
+const RenderAPI_2 = process.env.RENDERAPI_2;
 
-const RenderServiceID_1 = process.env.RenderServiceID_1;
-const RenderServiceID_2 = process.env.RenderServiceID_2;
+const RenderServiceID_1 = process.env.RENDERSERVICEID_1;
+const RenderServiceID_2 = process.env.RENDERSERVICEID_2;
 
 // HEALTH URLS (REQUIRED)
 const HEALTH_URL_1 = process.env.HEALTH_URL_1;  // e.g.: https://bot1.onrender.com/
