@@ -17,6 +17,9 @@
 
 import express from "express";
 import fetch from "node-fetch";
+from webserver import keep_alive
+keep_alive()
+# Your main application logic here
 
 // Load ENV
 const PORT = Number(process.env.PORT || 3000);
